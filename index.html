@@ -38,8 +38,10 @@
             </div>
 
             <div class="pessoas">
-                <label for="pessoas">Quantidade de pessoas</label>
+                <div class="textos">
+                    <label for="pessoas">Quantidade de pessoas</label>
                 <p id="erro">Não pode ser zero</p>
+                </div>
                 <div>
                     <img src="./images/icon-person.svg" alt="icone pessoa">
                     <input type="number" name="pessoas" id="pessoas" placeholder="0">
@@ -49,12 +51,14 @@
     </section>
 
     <section class="resultados">
-        <div class="gorjeta">
+        <div>
+            <div class="gorjeta-total">
             <p>
             <strong>Gorjeta</strong> <br>
 
             / pessoa
         </p>
+            <strong>R$ 0.00</strong>
         </div>
         <div class="total">
             <p>
@@ -62,6 +66,9 @@
 
             / pessoa
         </p>
+            <strong>R$ 0.00</strong>
+
+        </div>
         </div>
         
         <button>Limpar</button>
